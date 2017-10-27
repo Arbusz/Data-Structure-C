@@ -1,0 +1,3 @@
+C:/Users/18742/CLionProjects/tryyinhang/cmake-build-debug/CMakeFiles/tryyinhang.dir
+C:/Users/18742/CLionProjects/tryyinhang/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/18742/CLionProjects/tryyinhang/cmake-build-debug/CMakeFiles/rebuild_cache.dir

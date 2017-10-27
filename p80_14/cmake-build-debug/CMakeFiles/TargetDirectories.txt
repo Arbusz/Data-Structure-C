@@ -1,0 +1,3 @@
+C:/Users/18742/CLionProjects/p80_14/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/18742/CLionProjects/p80_14/cmake-build-debug/CMakeFiles/p80_14.dir
+C:/Users/18742/CLionProjects/p80_14/cmake-build-debug/CMakeFiles/edit_cache.dir

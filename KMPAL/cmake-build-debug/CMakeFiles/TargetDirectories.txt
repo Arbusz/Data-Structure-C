@@ -1,0 +1,3 @@
+C:/Users/18742/CLionProjects/KMPAL/cmake-build-debug/CMakeFiles/KMPAL.dir
+C:/Users/18742/CLionProjects/KMPAL/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/18742/CLionProjects/KMPAL/cmake-build-debug/CMakeFiles/rebuild_cache.dir

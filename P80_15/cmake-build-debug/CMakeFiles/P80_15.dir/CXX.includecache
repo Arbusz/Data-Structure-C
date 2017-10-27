@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/18742/CLionProjects/P80_15/CircleQueue.cpp
+iostream
+-
+CircleQueue.h
+C:/Users/18742/CLionProjects/P80_15/CircleQueue.h
+
+C:/Users/18742/CLionProjects/P80_15/CircleQueue.h
+
+C:/Users/18742/CLionProjects/P80_15/main.cpp
+iostream
+-
+CircleQueue.h
+C:/Users/18742/CLionProjects/P80_15/CircleQueue.h
+

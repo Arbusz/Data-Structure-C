@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/18742/CLionProjects/KMPAL/kaml.cpp
+vector
+C:/Users/18742/CLionProjects/KMPAL/vector
+string
+C:/Users/18742/CLionProjects/KMPAL/string
+iostream
+-
+
+C:/Users/18742/CLionProjects/KMPAL/main.cpp
+

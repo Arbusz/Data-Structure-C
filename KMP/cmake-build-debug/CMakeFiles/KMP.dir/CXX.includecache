@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/18742/CLionProjects/KMP/main.cpp
+vector
+C:/Users/18742/CLionProjects/KMP/vector
+string
+C:/Users/18742/CLionProjects/KMP/string
+iostream
+-
+

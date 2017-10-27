@@ -1,0 +1,3 @@
+C:/Users/18742/CLionProjects/BankCallCustomer/cmake-build-debug/CMakeFiles/BankCallCustomer.dir
+C:/Users/18742/CLionProjects/BankCallCustomer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/18742/CLionProjects/BankCallCustomer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

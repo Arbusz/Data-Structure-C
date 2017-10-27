@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\p80_17_Strcmp.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\p80_17_Strcmp.dir/objects.a @CMakeFiles\p80_17_Strcmp.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\p80_17_Strcmp.dir/objects.a -Wl,--no-whole-archive  -o p80_17_Strcmp.exe -Wl,--out-implib,libp80_17_Strcmp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\p80_17_Strcmp.dir\linklibs.rsp
