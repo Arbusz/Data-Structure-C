@@ -14,8 +14,7 @@ typedef struct _Node
     struct _Node *right;
 }Node;
 
-void PostTravelTree(Node* node);        //树的后序递归遍历
-void PreTravelTree(Node* node);        //树的前序递归遍历
+
 void PreMidCreateTree(Node* &node, int i, int j, int len);        //利用前序中序序列创建树
 void PostMidCreateTree(Node* &node, int i, int j, int len);        //利用后序中序序列创建树
 int Position(char c);                //确定c在中序序列mid中的下标
@@ -73,7 +72,7 @@ void InOrder(Node* node)   // 中序遍历的非递归
         {
             s.push(curr);
             curr = curr->left;
-        }//while  
+        }//while
         if(!s.empty())
         {
             curr = s.top();
@@ -84,26 +83,23 @@ void InOrder(Node* node)   // 中序遍历的非递归
     }
 }
 
-void PreOrder(Node* node)     //先序遍历的非递归   
+void PreOrder(Node* node)     //先序遍历的非递归
 {
     if(!node)
         return ;
-    stack<Node* > s;
-    Node* curr = node;
-    while(curr != NULL || !s.empty())
+
+    stack<Node*> s;
+    s.push(node);
+
+    while(!s.empty())
     {
-        while(curr != NULL)
-        {
-            cout<<curr->v<<" ";
-            s.push(curr);
-            curr = curr->left;
-        }
-        if(!s.empty())
-        {
-            curr = s.top();
-            s.pop();
-            curr = curr->right;
-        }
+        Node* temp = s.top();
+        cout<<temp->v<<" ";
+        s.pop();
+        if(temp->right)
+            s.push(temp->right);
+        if(temp->left)
+            s.push(temp->left);
     }
 }
 
@@ -121,3 +117,4 @@ int main()
 
     return 0;
 }
+
