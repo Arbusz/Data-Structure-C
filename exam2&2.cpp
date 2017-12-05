@@ -1,8 +1,7 @@
 #include<iostream>
 using namespace std;
-typedef int DataType;
 struct Node{
-    DataType data;
+    int data;
     Node *next;
 };
 class LinkList{
@@ -13,7 +12,7 @@ public:
     {
         head = NULL;//不带头结点
     }
-    void Inset(DataType a);
+    void Inset(int a);
     void show();
     void reverse();
     ~LinkList(){//循环析构头结点
@@ -22,7 +21,7 @@ public:
         {
             p = head;
             head = head->next;
-            delete p;   
+            delete p;
         };
     }
 };
@@ -53,8 +52,8 @@ void LinkList::reverse()//1->2->3->4,1<-2 3->4,1<-2<-3 4,1<-2<-3<-4
         }
     }
 }
-void LinkList::Inset(DataType a)
-{   
+void LinkList::Inset(int a)
+{
     Node *s = new Node;
     s->data = a;
     if(!head)//判断插入的是否为第一个节点
